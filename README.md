@@ -1,9 +1,6 @@
 # algebra.js 
 
-[![Build Status](https://travis-ci.org/nicolewhite/algebra.js.svg?branch=master)](https://travis-ci.org/nicolewhite/algebra.js)
-[![Coverage Status](https://coveralls.io/repos/nicolewhite/algebra.js/badge.svg?branch=master)](https://coveralls.io/r/nicolewhite/algebra.js?branch=master)
-[![npm version](https://badge.fury.io/js/algebra.js.svg)](http://badge.fury.io/js/algebra.js)
-[![Join the chat at https://gitter.im/nicolewhite/algebra.js](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nicolewhite/algebra.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+This is a fork of [algebra.js](https://github.com/nicolewhite/algebra.js) which adds simple bug fixes, as original repo was archived.
 
 ## Quick Start
 
@@ -51,21 +48,12 @@ x = 7/2
 npm install algebra.js
 ```
 
-#### In the Browser
-
-Download [algebra.min.js](http://algebra.js.org/javascripts/algebra-0.2.6.min.js).
-
-### Latest Development Release
-
-```
-git clone https://github.com/nicolewhite/algebra.js.git
-cd algebra.js
-```
-
-#### In Node
-
 ```js
-var algebra = require("./algebra");
+import * as algebra from 'algebra.js';
+
+var Fraction = algebra.Fraction;
+var Expression = algebra.Expression;
+var Equation = algebra.Equation;
 ```
 
 #### In the Browser
